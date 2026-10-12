@@ -70,7 +70,7 @@ export default function Hero({ onOpenInquiry }) {
             {/* Main Featured Photo Frame */}
             <div className="hero-card-frame">
               <img
-                src="/images/hero-cake.jpg"
+                src={`${import.meta.env.BASE_URL}images/hero-cake.jpg`}
                 alt="Chapter Ten signature strawberry shortcake with cream and iced latte"
                 loading="eager"
               />

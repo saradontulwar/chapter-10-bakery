@@ -3,6 +3,8 @@
 // Verified Business Details, Menu Data & Gallery Assets
 // ========================================================
 
+const BASE = import.meta.env.BASE_URL;
+
 export const BUSINESS_INFO = {
   name: "Chapter Ten – Bakery Kitchen",
   shortName: "Chapter Ten",
@@ -34,7 +36,7 @@ export const FEATURED_TREATS = [
     name: "Classic Strawberry Cream Slice",
     tag: "Kitchen Favourite",
     description: "Fluffy sponge layered with fresh strawberries, vanilla bean whipped cream, and delicate piped rosettes.",
-    image: "/images/hero-cake.jpg",
+    image: `${BASE}images/hero-cake.jpg`,
     priceNote: "Fresh Daily Counter Special"
   },
   {
@@ -42,7 +44,7 @@ export const FEATURED_TREATS = [
     name: "Bespoke Celebration Cake",
     tag: "Signature Custom",
     description: "Handcrafted two-tier celebration cake with textured strawberry-milk buttercream, edible florals, and gold foil accents.",
-    image: "/images/celebration-cake.jpg",
+    image: `${BASE}images/celebration-cake.jpg`,
     priceNote: "Custom Order (Made to Measure)"
   },
   {
@@ -50,7 +52,7 @@ export const FEATURED_TREATS = [
     name: "Artisan Tarts & Eclairs",
     tag: "Pastry Counter",
     description: "Crisp butter pastry cases with seasonal berries, rich Belgian chocolate glazed eclairs, and delicate pastel macarons.",
-    image: "/images/pastry-platter.jpg",
+    image: `${BASE}images/pastry-platter.jpg`,
     priceNote: "Baked Fresh Each Morning"
   },
   {
@@ -58,7 +60,7 @@ export const FEATURED_TREATS = [
     name: "Sea Salt Chocolate Chunk & Brownies",
     tag: "Warm Bakes",
     description: "Thick cookies loaded with molten chocolate puddles and flaky sea salt, accompanied by fudgy cocoa brownies.",
-    image: "/images/cookies-brownies.jpg",
+    image: `${BASE}images/cookies-brownies.jpg`,
     priceNote: "Fresh from the Oven"
   }
 ];
@@ -179,42 +181,42 @@ export const GALLERY_ITEMS = [
     id: 1,
     title: "Fresh Strawberry Shortcake Slice",
     category: "Cakes",
-    image: "/images/hero-cake.jpg",
+    image: `${BASE}images/hero-cake.jpg`,
     alt: "Chapter Ten strawberry cake slice with whipped cream on ceramic plate"
   },
   {
     id: 2,
     title: "Artisanal Tarts & Eclairs",
     category: "Pastries",
-    image: "/images/pastry-platter.jpg",
+    image: `${BASE}images/pastry-platter.jpg`,
     alt: "Assortment of fresh fruit tarts, chocolate eclairs and macarons"
   },
   {
     id: 3,
     title: "Bespoke Two-Tier Celebration Cake",
     category: "Cakes",
-    image: "/images/celebration-cake.jpg",
+    image: `${BASE}images/celebration-cake.jpg`,
     alt: "Handcrafted celebration two tier pink buttercream cake with edible flowers"
   },
   {
     id: 4,
     title: "Iced Drinks & Afternoon Sips",
     category: "Drinks",
-    image: "/images/cafe-drinks.jpg",
+    image: `${BASE}images/cafe-drinks.jpg`,
     alt: "Iced vanilla latte and strawberry refresher on wooden cafe table"
   },
   {
     id: 5,
     title: "Sea Salt Cookies & Fudgy Brownies",
     category: "Bakes",
-    image: "/images/cookies-brownies.jpg",
+    image: `${BASE}images/cookies-brownies.jpg`,
     alt: "Chunky chocolate chip cookies and chocolate brownies on parchment paper"
   },
   {
     id: 6,
     title: "Cosy Cafe Table & Reading Nook",
     category: "Ambience",
-    image: "/images/cafe-corner.jpg",
+    image: `${BASE}images/cafe-corner.jpg`,
     alt: "Cosy pastel cafe nook with pink armchair, flower vase and warm lighting"
   }
 ];

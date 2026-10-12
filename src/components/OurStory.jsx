@@ -67,7 +67,7 @@ export default function OurStory() {
 
             <div className="story-main-img">
               <img
-                src="/images/cafe-corner.jpg"
+                src={`${import.meta.env.BASE_URL}images/cafe-corner.jpg`}
                 alt="Chapter Ten café corner with cosy armchair and floral arrangement"
                 loading="lazy"
               />

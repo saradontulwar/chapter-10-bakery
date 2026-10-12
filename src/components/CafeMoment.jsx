@@ -10,7 +10,7 @@ export default function CafeMoment() {
           <div className="moment-gallery-stack">
             <div className="moment-img-main">
               <img
-                src="/images/cafe-drinks.jpg"
+                src={`${import.meta.env.BASE_URL}images/cafe-drinks.jpg`}
                 alt="Iced vanilla latte and fresh hibiscus refresher at Chapter Ten café"
                 loading="lazy"
               />
